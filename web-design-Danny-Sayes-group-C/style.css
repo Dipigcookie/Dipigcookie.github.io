@@ -84,6 +84,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(Images/webdesign\ index\ page\ design\ one.png);
 
 
 }
@@ -373,12 +374,10 @@ a:active {
 
 }
 
-
 .best-designs-slider-container {
 
     padding: 5.0rem;
     background-color: #a69f98;
-
 
 }
 
