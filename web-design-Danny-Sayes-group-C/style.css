@@ -424,12 +424,44 @@ a:active {
     align-items: center;
 }
 
+.Jotaroposter:hover {
+
+    border: 10px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
 .Bertonniahelmetredone{
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.Bertonniahelmetredone:hover {
+
+    border: 10px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.sharkposter {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sharkposter:hover {
+
+    border: 10px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
 .best-artworks-title {
 
 
