@@ -345,7 +345,7 @@ a:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1.5rem;
     flex-wrap: nowrap;
 
 }
@@ -516,8 +516,8 @@ a:active {
 
 .dragon:hover {
 
-    border: 10px solid #8c6057;
-    border-radius: 10px;
+    border: 20px solid #8c6057;
+    border-radius: 20px;
     transition: 0.3s;
 
 }
@@ -531,8 +531,8 @@ a:active {
 
 .moon-beast:hover {
 
-    border: 10px solid #8c6057;
-    border-radius: 10px;
+    border: 20px solid #8c6057;
+    border-radius: 20px;
     transition: 0.3s;
 
 }
@@ -546,8 +546,8 @@ a:active {
 
 .Carnovssquig:hover {
 
-    border: 10px solid #8c6057;
-    border-radius: 10px;
+    border: 20px solid #8c6057;
+    border-radius: 20px;
     transition: 0.3s;
 
 }
