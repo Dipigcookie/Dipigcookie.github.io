@@ -374,21 +374,10 @@ a:active {
 
 }
 
-.best-designs-slider-container {
+.best-designs-container {
 
-    padding: 5.0rem;
+    padding: 2.0rem;
     background-color: #a69f98;
-
-}
-
-.designs-slider-warapper {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    max-width: 90rem;
-    margin: auto;
 
 }
 
@@ -397,7 +386,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    padding: 1.5rem;
 
 
 }
@@ -409,41 +398,38 @@ a:active {
 
 }
 
-.designs-slider {
+.best-designs-images {
 
     display: flex;
-    aspect-ratio: 16 / 9;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-    border-radius: 0.5rem;
-    max-height: 51rem;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 5rem;
 }
 
-.designs-slider img {
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: contain;
-    width: 100%;
-    height: 500rem;
-    border-radius: 0.5rem;
-    max-height: 100%;
+.best-designs-images img {
+
+    max-width: 100%;
+    width: 60vw;
+    height: auto;
+    min-height: 40vw;
+
 
 }
 
-.designs-slider-nav {
+.Jotaroposter {
 
     display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translatex(-50%);
-    z-index: 1;
-
+    justify-content: center;
+    align-items: center;
 }
 
+.Bertonniahelmetredone{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .best-artworks-title {
 
 
