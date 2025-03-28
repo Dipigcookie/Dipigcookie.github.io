@@ -118,13 +118,39 @@ a:active {
     flex-direction: column;
     background-color: #afd5aa;
     min-height: 800px;
+    padding: 2rem;
 
+
+}
+
+.my-tools h3 {
+
+    font-size: 2vw;
+
+}
+
+.my-tools h1 {
+
+    font-size: 5vw;
+    border-bottom: #8c6057 20px solid;
+
+
+}
+
+.my-tools-title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
 
 }
 
 .my-tools-images {
 
     display: flex;
+    border: #8c60579f 1px solid;
+    border-radius: 30px;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -228,38 +254,13 @@ a:active {
     transition: 0.5s;
 }
 
-
-.my-tools h3 {
-
-    font-size: 2vw;
-
-}
-
-.my-tools h1 {
-
-    font-size: 5vw;
-    border-bottom: #8c6057 20px solid;
-
-
-}
-
-.my-tools-title {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 70px;
-
-}
-
 .best-works-title {
 
 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-
+    padding: 3rem;
 
 }
 
@@ -274,7 +275,7 @@ a:active {
 .best-works-slider-container {
 
     padding: 1.5rem;
-
+    padding-bottom: 8rem;
 
 }
 
@@ -340,7 +341,11 @@ a:active {
 .the-footer {
 
     background-color: #8c6057;
-    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: nowrap;
 
 }
 
@@ -349,10 +354,22 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #a69f98;
+    color: #000000;
     font-size: 15px;
     padding: 9.9px;
     margin: 2rem;
+
+}
+
+.contact-info {
+
+    color: #a69f98;
+
+}
+
+.contact-info h1 {
+
+    color: #000000;
 
 }
 
@@ -434,7 +451,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    padding: 3rem;
 
 
 }
