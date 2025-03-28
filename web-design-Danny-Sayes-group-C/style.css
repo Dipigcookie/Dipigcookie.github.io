@@ -412,7 +412,6 @@ a:active {
     max-width: 100%;
     width: 60vw;
     height: auto;
-    min-height: 40vw;
 
 
 }
@@ -468,84 +467,88 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 1.5rem;
 
 
 }
 
 .best-artworks-title h1 {
 
-
     font-size: 4vw;
     border-bottom: 15px solid #8c6057;
 
 }
 
-.best-artworks-slider-container {
+.best-artworks-container {
 
     padding: 1.5rem;
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
 
 
 }
 
-.best-artworks-slider-warapper {
+.best-artworks-images {
 
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    max-width: 100rem;
-    margin: auto;
+    flex-direction: column;
+    gap: 60px;
+    padding: 5rem;
+}
+
+.best-artworks-images img {
+
+    max-width: 100%;
+    width: 80vw;
+    height: auto;
+    min-height: 40vw;
+
 
 }
 
-.best-artworks-slider {
+.dragon {
 
     display: flex;
-    aspect-ratio: 16 / 9;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dragon:hover {
+
+    border: 10px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
 
 }
 
-.best-artworks-slider img {
-
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
-
-}
-
-
-.best-artworks-slider-nav {
+.moon-beast {
 
     display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translatex(-50%);
-    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.moon-beast:hover {
+
+    border: 10px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
 
 }
 
-.best-artworks-slider a {
+.Carnovssquig {
 
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.best-artworks-slider-nav a:hover {
+.Carnovssquig:hover {
 
-    opacity: 1;
+    border: 10px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
 
 }
 
