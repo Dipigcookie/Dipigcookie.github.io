@@ -431,7 +431,7 @@ a:active {
 
 }
 
-.Bertonniahelmetredone{
+.Bertonniahelmetredone {
 
     display: flex;
     justify-content: center;
@@ -560,14 +560,20 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3rem;
 
 }
 
 .Commission-title-descrpition {
 
-
-    margin: 10%;
-    width: 40%;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 5.4rem;
+    margin: 9rem;
+    background-color: #8c6057;
+    border: 20px solid #8c6057;
+    border-radius: 20px;
 
 
 }
@@ -575,7 +581,7 @@ a:active {
 .Commission-title-descrpition h2 {
 
 
-    font-size: 65px;
+    font-size: 4vw;
 
 
 
@@ -584,7 +590,7 @@ a:active {
 .Commission-title-descrpition h1 {
 
 
-    font-size: 100px;
+    font-size: 5.5vw;
     border-bottom: #afd5aa 20px solid;
 
 }
@@ -592,7 +598,7 @@ a:active {
 .Commission-title-descrpition h3 {
 
 
-    font-size: 40px;
+    font-size: 2vw;
 
 
 
@@ -600,7 +606,7 @@ a:active {
 
 .Commission-title-descrpition h4 {
 
-    font-size: 65px;
+    font-size: 3vw;
     border-top: #afd5aa 20px solid;
 
 
@@ -610,41 +616,87 @@ a:active {
 
     text-align: left;
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
 }
 
 textarea,
-input {
-
-    width: 400px;
-    height: 60px;
-    background-color: #afd5aa;
-
-
-}
-
+input,
 select {
-
-    width: 400px;
-    height: 60px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    min-height: 3rem;
     background-color: #afd5aa;
-
-
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #8c6057;
+    border-radius: 5px;
+    font-size: 1rem;
 }
 
 button {
-
-    width: 300px;
-    height: 60px;
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    min-height: 3rem;
     background-color: #afd5aa;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
 
-
+button:hover {
+    background-color: #8c6057;
+    color: #fff;
+    transition: 0.3s;
 }
 
 .submit-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 
 
-    padding-left: 52.7px;
+@media (max-width: 768px) {
+
+    textarea,
+    input,
+    select,
+    button {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .Commission-title-descrpition h2,
+    .Commission-title-descrpition h1,
+    .Commission-title-descrpition h3,
+    .Commission-title-descrpition h4 {
+        font-size: 4vw;
+    }
+}
 
 
+@media (max-width: 480px) {
+
+    textarea,
+    input,
+    select,
+    button {
+        font-size: 0.8rem;
+    }
+
+    .Commission-title-descrpition h2,
+    .Commission-title-descrpition h1,
+    .Commission-title-descrpition h3,
+    .Commission-title-descrpition h4 {
+        font-size: 5vw;
+    }
 }
