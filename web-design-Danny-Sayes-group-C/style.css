@@ -385,6 +385,75 @@ a:active {
 
 }
 
+.social-media-icons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 1rem;
+    margin: 2rem;
+
+
+}
+
+.social-media-icons img {
+
+    max-width: 100%;
+    width: 3vw;
+    height: auto;
+
+
+}
+
+.social-media-icons img:hover {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.social-media-icons img:active {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.social-media-icons img:focus {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.social-media-icons img:focus-visible {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.social-media-icons img:focus-within {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.social-media-icons img:focus-within-visible {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
 .copyright {
 
     display: flex;
@@ -397,15 +466,71 @@ a:active {
 
 }
 
-.contact-info {
+.contact-info-icons {
 
-    color: #a69f98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 1rem;
+    margin: 2rem;
 
 }
 
-.contact-info h1 {
+.contact-info-icons img {
 
-    color: #000000;
+    max-width: 100%;
+    width: 3vw;
+    height: auto;
+
+
+}
+
+.contact-info-icons img:hover {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.contact-info-icons img:active {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.contact-info-icons img:focus {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.contact-info-icons img:focus-visible {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.contact-info-icons img:focus-within {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.contact-info-icons img:focus-within-visible {
+
+    border: 3px solid #8c6057;
+    border-radius: 10px;
+    transition: 0.3s;
 
 }
 
@@ -427,7 +552,6 @@ a:active {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 
 
