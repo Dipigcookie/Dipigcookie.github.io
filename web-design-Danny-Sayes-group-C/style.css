@@ -465,6 +465,14 @@ a:active {
 
 }
 
+.copyright h1 {
+
+    font-size: 4vw;
+    color: #000000;
+
+
+}
+
 .contact-info-icons {
 
     display: flex;
