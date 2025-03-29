@@ -9,11 +9,13 @@
     font-family: 'Keep-Calm';
     src: url(Fonts/KeepCalm-Medium.ttf) format('truetype');
 }
+
 @font-face {
 
     font-family: 'Sans-pro';
     src: url(Fonts/SourceSansPro-Regular.ttf) format('truetype');
 }
+
 .header {
 
     background-color: #8c6057;
@@ -93,6 +95,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(Images/webdesign\ index\ page\ design\ one.png);
 
 
 }
@@ -103,7 +106,6 @@ a:active {
 
 
 }
-
 .about-text h1 {
 
     font-size: 5vw;
@@ -272,13 +274,26 @@ a:active {
     transition: 0.5s;
 }
 
-.best-works-title {
-
+.best-works-title-container {
 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+    border: 3px solid #8c6057;
+    background-color: #8c6057;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.best-works-title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem;
 
 }
 
@@ -286,14 +301,14 @@ a:active {
 
 
     font-size: 4vw;
-    border-bottom: 15px solid #8c6057;
+    border-bottom: 15px solid #afd5aa;
     font-family: 'Keep-Calm';
 
 }
 
 .best-works-slider-container {
 
-    padding: 1.5rem;
+    padding: 2.0rem;
     padding-bottom: 8rem;
 
 }
@@ -306,6 +321,7 @@ a:active {
     position: relative;
     max-width: 100rem;
     margin: auto;
+
 
 }
 
@@ -406,9 +422,14 @@ a:active {
     justify-content: center;
     align-items: center;
     padding: 3.5rem;
-
-
+    border: 3px solid #afd5aa;
+    background-color: #afd5aa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+
 
 .best-designs-title h1 {
 
@@ -491,6 +512,10 @@ a:active {
     justify-content: center;
     align-items: center;
     padding: 3.5rem;
+    border: 3px solid #afd5aa;
+    background-color: #afd5aa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
@@ -611,7 +636,7 @@ a:active {
 
     font-size: 4vw;
     font-family: 'Keep-Calm';
-    
+
 
 }
 
