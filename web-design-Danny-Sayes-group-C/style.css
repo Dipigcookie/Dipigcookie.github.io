@@ -91,36 +91,82 @@ a:active {
 
 .about-section {
 
-
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(Images/webdesign\ index\ page\ design\ one.png);
-
 
 }
 
 .about-text {
 
-    padding: 85px;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 
+
+}
+
+.about-title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem;
+    border: 3px solid #afd5aa;
+    background-color: #afd5aa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 .about-text h1 {
 
     font-size: 5vw;
-    border-bottom: 1vw solid #afd5aa;
+    border-bottom: 1vw solid #8c6057;
     font-family: 'Keep-Calm';
 
+
+}
+
+.about-description {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3.5rem;
+    border: 3px solid #afd5aa;
+    background-color: #afd5aa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    gap: 2rem;
 
 }
 
 .about-text h3 {
 
 
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: 'Sans-pro';
+
+
+}
+
+.my-face {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-face img {
+
+    border: #afd5aa 3px solid;
+    background-color: #afd5aa;
+    border-radius: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
@@ -281,8 +327,8 @@ a:active {
     align-items: center;
     padding: 2rem;
     margin: 2rem;
-    border: 3px solid #8c6057;
-    background-color: #8c6057;
+    border: 3px solid #afd5aa;
+    background-color: #afd5aa;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -301,7 +347,7 @@ a:active {
 
 
     font-size: 4vw;
-    border-bottom: 15px solid #afd5aa;
+    border-bottom: 15px solid #8c6057;
     font-family: 'Keep-Calm';
 
 }
