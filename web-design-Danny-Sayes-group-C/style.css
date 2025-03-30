@@ -733,6 +733,64 @@ a:active {
 
 }
 
+.best-animations-container {
+
+    padding: 2.0rem;
+    background-color: #a69f98;
+
+}
+
+.best-animations-title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem;
+    border: 3px solid #afd5aa;
+    background-color: #afd5aa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.best-animations-title h1 {
+
+    font-size: 3.5vw;
+    border-bottom: 15px solid #8c6057;
+    font-family: 'Keep-Calm';
+
+}
+
+.best-animation-vids {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    padding: 5rem;
+
+
+}
+
+.best-animation-vids video {
+
+    max-width: 100%;
+    width: 80vw;
+    height: auto;
+    min-height: 40vw;
+
+
+}
+
+.best-animation-vids video:hover {
+
+    border: 20px solid #8c6057;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+
 .Commission-section {
 
     background-color: #a69f98;
