@@ -120,9 +120,9 @@ a:active {
 
 }
 
-.about-text h1 {
+.about-title h1 {
 
-    font-size: 5vw;
+    font-size: 4vw;
     border-bottom: 1vw solid #8c6057;
     font-family: 'Keep-Calm';
 
@@ -144,11 +144,12 @@ a:active {
 
 }
 
-.about-text h3 {
+.about-description h3 {
 
-
-    font-size: 1.5vw;
-    font-family: 'Sans-pro';
+    font-size: 2vw;
+    border-bottom: 15px solid #8c6057;
+    font-family: 'sans-pro';
+    padding-bottom: 2rem;
 
 
 }
@@ -492,7 +493,7 @@ a:active {
 
 }
 
-.social-media-icons img:focus-within-visible {
+.social-media-icons img focus-within-visible {
 
     border: 3px solid #8c6057;
     border-radius: 10px;
@@ -580,7 +581,7 @@ a:active {
 
 }
 
-.contact-info-icons img:focus-within-visible {
+.contact-info-icons img focus-within-visible {
 
     border: 3px solid #8c6057;
     border-radius: 10px;
@@ -629,6 +630,7 @@ a:active {
     max-width: 100%;
     width: 60vw;
     height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
@@ -637,11 +639,10 @@ a:active {
 
     display: flex;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     align-items: center;
 }
 
-.Jotaroposter:hover {
+.best-designs-images img:hover {
 
     border: 10px solid #8c6057;
     border-radius: 10px;
@@ -653,32 +654,14 @@ a:active {
 
     display: flex;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     align-items: center;
-}
-
-.tombkingsposter:hover {
-
-    border: 10px solid #8c6057;
-    border-radius: 10px;
-    transition: 0.3s;
-
 }
 
 .sharkposter {
 
     display: flex;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     align-items: center;
-}
-
-.sharkposter:hover {
-
-    border: 10px solid #8c6057;
-    border-radius: 10px;
-    transition: 0.3s;
-
 }
 
 .best-artworks-title {
@@ -728,6 +711,7 @@ a:active {
     width: 80vw;
     height: auto;
     min-height: 40vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
@@ -736,11 +720,11 @@ a:active {
 
     display: flex;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     align-items: center;
+
 }
 
-.dragon:hover {
+.best-artworks-images img:hover {
 
     border: 20px solid #8c6057;
     border-radius: 20px;
@@ -752,15 +736,7 @@ a:active {
 
     display: flex;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     align-items: center;
-}
-
-.moon-beast:hover {
-
-    border: 20px solid #8c6057;
-    border-radius: 20px;
-    transition: 0.3s;
 
 }
 
@@ -768,15 +744,7 @@ a:active {
 
     display: flex;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     align-items: center;
-}
-
-.Carnovssquig:hover {
-
-    border: 20px solid #8c6057;
-    border-radius: 20px;
-    transition: 0.3s;
 
 }
 
@@ -826,6 +794,7 @@ a:active {
     width: 80vw;
     height: auto;
     min-height: 40vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
